@@ -1,7 +1,5 @@
 num = input('Enter a number (decimal or integer): ')
-# type your code here
-tmp = num
-tmp = tmp.strip(" ")
+tmp = num.strip(" ")
 tmp = tmp.replace(".", "")
 tmp = tmp.lstrip("0")
 
